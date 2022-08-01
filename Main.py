@@ -1,6 +1,8 @@
 class MyCircularQueue:
     def __init__(self, size: int):
         # Write code here
+          self.size = size
+         
 
     def enqueue(self, value: int) -> bool:
         # Write code here
